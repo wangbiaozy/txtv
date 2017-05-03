@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <title>腾讯视频会员流量包</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="css/index.css">  
+		<link rel="stylesheet" href="css/reset.css">
+		<script type="text/javascript" src="js/jquery.js"></script>  
+		<script type="text/javascript" src="js/index.js"></script>  
+    </head>
+    <body>
+    	<div class="headline">
+			<p>腾讯视频会员流量包</p>
+        </div>
+        <div class="product">
+        	<ul class="info one">
+            	<li>产品名称：</li>
+            	<li>产品资源：</li>
+            	<li>产品资费：</li>
+            	<li>有效日期：</li>
+            </ul>
+        	<ul class="info two">
+            	<li>腾讯视频会员流量包</li>
+            	<li>7天腾讯视频会员权益+</li>
+            	<li>1GB本地7天通用流量</li>
+            	<li><a>11.9元</a>/次</li>
+            	<li>办理后立即生效，有效期7天</li>
+            </ul>
+        </div>
+        <div class="userdata">
+        	<div id="usernumone">
+                <p>请输入QQ号码：<input maxlength="11" oninput="numchecked()"></p>
+            </div>
+        	<div id="usernumtwo">
+                <p>再次输入QQ号码：<input oninput="numchecked()" maxlength="11"></p>
+                <div id="inputcheck">
+                </div>
+            </div>
+            <p class="notice">！请务必仔细核对并填写正确开通腾讯视频会员的QQ号码否则将无法享受会员权益。</p>
+            <div class="buynow" id="LJDG">
+            	<p>立即订购</p>
+            </div>
+            <div class="productinfo">
+				<p>————&nbsp;&nbsp;&nbsp;&nbsp;产品说明&nbsp;&nbsp;&nbsp;&nbsp;————</p>
+                <ul>
+                	<li>1、腾讯视频会员流量包腾讯视频会员流量包腾讯视频会员流量包视频会员流量讯视频会</li>
+                	<li>2、腾讯视频会员流量包腾讯视频会员流量包腾讯视频会员流量包视频会员流量讯视频会</li>
+                </ul>
+            </div>
+        </div>
+            <div class="more">
+				<div>
+                    <ul>
+                        <li>3、腾讯视频会员流量包腾讯视频会员流量包腾讯视频会员流量包视频会员流量讯视频会</li>
+                        <li>4、腾讯视频会员流量包腾讯视频会员流量包腾讯视频会员流量包视频会员流量讯视频会</li>
+                    </ul>
+                </div>
+                <p onclick="moreinfo()"><a>点击加载更多</a></p>
+            </div>
+			<div id="mask" class="mask"></div>
+			<div id="failed">
+            	<div></div>
+                <p>两次QQ不一致</p>
+            </div>
+                <div class="QRBL">
+                    <div class="titleline">
+                        <div></div>
+                        <p>确认办理</p>
+                    </div>
+                    <div class="QRuserinfo">
+                        <ul>
+                            <li><p>开通产品：腾讯视频会员流量包（11.9元）</p></li>
+                            <li><p>手机号码：<a>138XXXXXXXX</a></p></li>
+                            <li><p>QQ号码：<a id="userQQnum"></a></p></li>
+                        </ul>
+                        <div>
+                            <p>确认办理</p>
+                        </div>
+                    </div>
+                </div>
+		<script>
+        (function(global){
+            function remChange(){
+                document.documentElement.style.fontSize=20*document.documentElement.clientWidth/750+'px';
+            }
+            remChange();
+            global.addEventListener('resize',remChange,false);
+        })(window);
+        /*(function(global){
+            function remChange(){
+                document.documentElement.style.fontSize=20*document.documentElement.getBoundingClientRect().width/750+'px';
+            }
+            remChange();
+            global.addEventListener('resize',remChange,true);
+        })(window);*/
+
+        </script>
+    </body>
+</html>
