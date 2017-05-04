@@ -45,7 +45,7 @@ body{
 	margin-bottom: -0.5rem;
 }
 .info.two>li:nth-child(3){
-	margin-top: 1.6rem;
+	margin-top: 1.3rem;
 }
 .info.one>li:nth-child(2){
 	margin-bottom:4rem;
@@ -57,9 +57,10 @@ body{
 	color:#f6f6f6;
 	}
 #usernumone,#usernumtwo{
+	box-sizing: border-box;
 	color:#333333;
 	font-size:1.4rem;
-	margin-left:1rem;
+	padding-left:1rem;
 	border-bottom:1px #e5e5e5 solid;
 	position:relative;
 	width:37.5rem;
